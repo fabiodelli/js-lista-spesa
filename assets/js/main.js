@@ -11,8 +11,8 @@ while (i < list.length) {
   }            */
 
   for(let i = 0;i< list.length;i++){
-    var item = list[i];
-    var li = document.createElement('li');
+    let item = list[i];
+    let li = document.createElement('li');
     li.textContent = item;
     document.getElementById('ul').appendChild(li);
   }
